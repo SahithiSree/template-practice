@@ -1,0 +1,124 @@
+header{
+    display: flex;  
+}
+.logo{
+    width: 50%;
+   margin-top: 10px;
+    margin-left: 150px;
+}
+.header{
+    width: 50%;
+    padding: 0 25px;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+    justify-items: center;
+    justify-content: space-evenly; 
+}
+
+.header li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.parallax{
+   background-image: url("../images/parallax.jpeg");
+   min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+
+}
+.intro{
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+}
+.intro p{
+   
+    font-size: 20px;
+}
+.profiles{
+    margin-top: 40px;
+    background-color: rgb(14, 197, 197);
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.profile{
+    display: inline-grid;
+    margin-top: 60px;
+    justify-content: center;
+}
+.sec-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(230, 227, 227);  
+}
+.sec-1 p{
+    font-size:18px;
+    color: rgb(139, 141, 144);
+    line-height: 8mm;
+    word-spacing: 2mm;
+}
+.sec-2{
+    padding-top: 150px;
+}
+.info{
+    margin-top: 100px;
+    text-align: center;
+}
+.info p{
+    line-height: 8mm;
+    font-size: 18px;
+    color: rgb(139, 141, 144);
+
+}
+.info button{
+    background-color: rgb(14, 197, 197);
+    border: none;
+    width: 190px;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+}
+footer{
+    margin-top: 100px;
+    padding-top: 80px;
+    background: rgba(0,0,0,0.7);
+    height: 280px;
+    justify-content: center;
+}
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+}
+.foot-sec1{
+    flex: 25%;
+color: white;
+text-align: center;
+justify-content: center;
+}
+.foot-sec2{
+    flex: 25%;
+    color: white;
+    margin-left: 16.66667%;
+}
+.foot-sec3{
+    flex: 25%;
+    display: flex;
+    color: white;
+    margin-left: 8.3%;
+}
+.foot-sec3 ul{
+    list-style-type: none;
+    line-height: 8mm;
+}
+.foot-sec3-sec3{
+    margin-left: 15%;
+}
+
+
